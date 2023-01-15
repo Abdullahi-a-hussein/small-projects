@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: aliceblue;
+  }
+
+  .position {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    inset: 1em;
+    margin: auto;
+  }
+
+  .clock-frame {
+    position: fixed;
+    width: 20rem;
+  }
+
+  .clock {
+    background-color: #cfcfcf;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.2px 72px 0px #2424245f,
+                -0.5px -0.2px 15px 0px #2424245f;
+  }
+
+  .markers {
+    width: 0.5%;
+    aspect-ratio: 0.265 / 45;
+    border-radius: 30%;
+    background-color: black;
+    opacity: 30%;
+  }
+
+  .increase-5 {
+    width: 2%;
+    aspect-ratio: 1.02 / 45;
+    opacity: unset;
+  }
+
+  .quarters {
+    width: 4%;
+    aspect-ratio: 2 / 45;
+    background-color: red;
+  }
+
+  #min1 {
+    transform: rotate(6deg);
+  }
+
+  #min2 {
+    transform: rotate(12deg);
+  }
+  #min3 {
+    transform: rotate(18deg);
+  }
+  #min4 {
+    transform: rotate(24deg);
+  }
+  #min5 {
+    transform: rotate(30deg);
+  }
+  #min6 {
+    transform: rotate(36deg);
+  }
+  #min7 {
+    transform: rotate(42deg);
+  }
+  #min8 {
+    transform: rotate(48deg);
+  }
+  #min9 {
+    transform: rotate(54deg);
+  }
+  #min10 {
+    transform: rotate(60deg);
+  }
+  #min11 {
+    transform: rotate(66deg);
+  }
+  #min12 {
+    transform: rotate(72deg);
+  }
+  #min13 {
+    transform: rotate(78deg);
+  }
+  #min14 {
+    transform: rotate(84deg);
+  }
+
+  #min15 {
+    transform: rotate(90deg);
+  }
+  #min16 {
+    transform: rotate(96deg);
+  }
+  #min17 {
+    transform: rotate(102deg);
+  }
+  #min18 {
+    transform: rotate(108deg);
+  }
+  #min19 {
+    transform: rotate(114deg);
+  }
+  #min20 {
+    transform: rotate(120deg);
+  }
+
+  #min21 {
+    transform: rotate(126deg);
+  }
+  #min22 {
+    transform: rotate(132deg);
+  }
+  #min23 {
+    transform: rotate(138deg);
+  }
+  #min24 {
+    transform: rotate(144deg);
+  }
+  #min25 {
+    transform: rotate(150deg);
+  }
+
+  #min26 {
+    transform: rotate(156deg);
+  }
+  #min27 {
+    transform: rotate(162deg);
+  }
+  #min28 {
+    transform: rotate(168deg);
+  }
+
+  #min29 {
+    transform: rotate(174deg);
+  }
+
+  .clock-face {
+    width: 80%;
+    background-color: #cfcfcf;
+    border-radius: 50%;
+  }
+
+  .hand {
+    border-radius: 25px;
+    background: linear-gradient(black 50%, transparent 50%);
+  }
+
+  .hour {
+    width: 5.5%;
+    aspect-ratio: 8 / 90;
+  }
+
+  .minute {
+    width: 4%;
+    aspect-ratio: 2 / 45;
+  }
+
+  .second {
+    width: 2%;
+    aspect-ratio: 0.95 / 45;
+    background: linear-gradient(red 70%, transparent 30%);
+  }
+
+  .red-dot {
+    width: 10%;
+    border-radius: 50%;
+    background: red;
+  }
+
+  .white-dot {
+    width: 7%;
+    border-radius: 100%;
+    background: black;
+  }
